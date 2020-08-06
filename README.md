@@ -1,4 +1,4 @@
-# Face Mask Detection
+# Face Mask Detection ![](https://visitor-badge.laobi.icu/badge?page_id=akash720.face-mask-detection.readme)
 Detecting face masks using deep learning 
 
 ### Description
