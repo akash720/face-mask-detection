@@ -13,3 +13,8 @@ The dataset used in this project can be found here - https://github.com/prajnasb
 
 ### Future Work
 There's always room for improvement. In this project, we can further detect if the faces are fully covered by mask or not. It is beneficial to do so because improper use of mask may decrease it's efficiency.
+
+### Output
+![Output GIF](https://raw.githubusercontent.com/akash720/face-mask-detection/master/output/output.gif)
+
+I would be so happy if you give this repository a star :star: or share it with your friends ❤️
