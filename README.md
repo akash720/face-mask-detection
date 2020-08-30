@@ -2,11 +2,15 @@
 Detecting face masks using deep learning 
 
 ### Description
-This project aims at using transfer learning on pretrained model for detecting face with masks on them. The model used is ResNet50 which is available in PyTorch. To test the model, first we find ROI in the image which is **face** . Then we pass this ROI to our model to detect if face is covered with mask or not.
+This project aims at using transfer learning on pretrained model for detecting face with masks on them. The model used is ResNet50 which is available in PyTorch. The approach used is as follows:
+- First we find ROI in the image which is **face**. This is done by passing our image to [MTCNN face detector](https://github.com/ipazc/mtcnn)
+- Then we crop the face, which is out ROI and pass it into our model to detect if face is covered with mask or not.
 
 ### Dependencies
 * PyTorch
 * OpenCV
+* MTCNN face detector
+* Keras
 
 ### Dataset
 The dataset used in this project can be found here - https://github.com/prajnasb/observations with some of my own images and their augmented images.
