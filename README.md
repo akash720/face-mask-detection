@@ -8,9 +8,7 @@ This project aims at using transfer learning on pretrained model for detecting f
 
 ### Dependencies
 * PyTorch
-* OpenCV
 * MTCNN face detector
-* Keras
 
 ### Dataset
 The dataset used in this project can be found here - https://github.com/prajnasb/observations with some of my own images and their augmented images.
